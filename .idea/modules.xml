@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RDFSchemaConversion.iml" filepath="$PROJECT_DIR$/.idea/modules/RDFSchemaConversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RDFSchemaDataFormatsConversion.iml" filepath="$PROJECT_DIR$/.idea/modules/RDFSchemaDataFormatsConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rdfschemaconversion-build.iml" filepath="$PROJECT_DIR$/.idea/modules/rdfschemaconversion-build.iml" />
     </modules>
   </component>
