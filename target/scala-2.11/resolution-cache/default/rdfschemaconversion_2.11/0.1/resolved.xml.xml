@@ -4,7 +4,7 @@
 		module="rdfschemaconversion_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20190502123140"
+		publication="20190502175917"
 	>
 		<description>
 		RDFSchemaConversion

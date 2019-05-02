@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2229c02-0310-4d33-a90d-89fabfb75f71" name="Default Changelist" comment="">
+    <list default="true" id="c2229c02-0310-4d33-a90d-89fabfb75f71" name="Default Changelist" comment="addin a csv file">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/RDFSchemaConversion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/RDFSchemaDataFormatsConversion.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sbt_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sbt_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sbt_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sbt_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion$sources_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rdfschemaconversion_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sbt_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion$sources_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rdfschemaconversion_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <manually-removed-from-ignored>
       <directory path="$PROJECT_DIR$/out/" />
@@ -34,22 +86,42 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Scala" value="3" />
-          <entry key="sbt" value="1" />
+          <entry key="Scala" value="4" />
+          <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="46" />
-          <entry key="PLAIN_TEXT" value="44" />
-          <entry key="sbt" value="1" />
+          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="Scala" value="6" />
+          <entry key="sbt" value="8" />
           <entry key="sbtShell" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SingleStatementTable.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,8 +130,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/RDFBenchVerticalPartionedTables.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/SingleStatementTable.scala" />
       </list>
     </option>
   </component>
@@ -127,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556803997861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556809185818" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
@@ -405,6 +478,7 @@
     </option>
     <option name="projectSyncType">
       <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$USER_HOME$/IdeaProjects/Demo" value="PREVIEW" />
         <entry key="$USER_HOME$/IdeaProjects/GraphXBuildingEggoNetwork" value="PREVIEW" />
         <entry key="$USER_HOME$/IdeaProjects/GraphXPageRank" value="PREVIEW" />
@@ -430,7 +504,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556789361804</updated>
       <workItem from="1556789364026" duration="1819000" />
-      <workItem from="1556802264192" duration="1666000" />
+      <workItem from="1556802264192" duration="5048000" />
     </task>
     <task id="LOCAL-00001" summary="commitin">
       <created>1556802521783</created>
@@ -474,14 +548,36 @@
       <option name="project" value="LOCAL" />
       <updated>1556803811626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="generating the jar">
+      <created>1556803959843</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556803959843</updated>
+    </task>
+    <task id="LOCAL-00008" summary="generating the jar">
+      <created>1556804057671</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556804057672</updated>
+    </task>
+    <task id="LOCAL-00009" summary="addin a csv file">
+      <created>1556804704464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556804704464</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3485000" />
+    <option name="totallyTimeSpent" value="6867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -499,7 +595,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32917467" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32917467" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4165067" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4165067" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -528,23 +624,10 @@
     <MESSAGE value="commitin" />
     <MESSAGE value="update the Read me" />
     <MESSAGE value="generating the jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="generating the jar" />
+    <MESSAGE value="addin a csv file" />
+    <option name="LAST_COMMIT_MESSAGE" value="addin a csv file" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SingleStatementTable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/RDFBenchProertyTables.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -565,6 +648,20 @@
             <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SingleStatementTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
