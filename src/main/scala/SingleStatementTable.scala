@@ -25,12 +25,9 @@ object SingleStatementTable {
 
     val RDFDF = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load(filePathCSV).toDF()
 
-    RDFDF.write.format("com.databricks.spark.avro").save(filePathAVRO)
+    RDFDF.write.format("avro").save(filePathAVRO)
     RDFDF.write.parquet(filePathPARQUET)
     RDFDF.write.orc( filePathORC)
-
-
-
 
 
   }

@@ -1,3 +1,5 @@
+import java.io.File
+
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.{SparkConf, SparkContext}
@@ -20,6 +22,31 @@ object RDFBenchVerticalPartionedTables {
       .appName("Spark SQL basic example")
       .config("spark.some.config.option", "some-value")
       .getOrCreate()
+
+
+    val filePathCSV:String =args(0)
+    val filePathAVRO:String =args(1)
+    val filePathORC:String =args(2)
+    val filePathParquet:String =args(3)
+
+    val csvFiles = new File(filePathCSV).list()
+
+    csvFiles.foreach{verticalTableName=>
+      val verticalTableName2=verticalTableName.dropRight(4)
+      val RDFVerticalTableDF = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load(filePathCSV+"/"+verticalTableName).toDF()
+
+      RDFVerticalTableDF.write.format("com.databricks.spark.avro").save(filePathAVRO+"/"+verticalTableName2+".avro")
+      RDFVerticalTableDF.write.parquet(filePathParquet+"/"+verticalTableName2+".parquet")
+      RDFVerticalTableDF.write.orc(filePathORC+"/"+verticalTableName2+".orc")
+
+      println("Table: " +verticalTableName2+" Has been Successfully Converted to AVRO, PARQUET and ORC !")
+    }
+
+
+
+
+
+/*
 
 
     val RDFDFTitle = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load("file:///C:/ExprimentRDFTest/CSV/VerticalTables/title.csv").toDF()
@@ -127,7 +154,7 @@ object RDFBenchVerticalPartionedTables {
     RDFDFJournal.write.parquet("file:///C:/ExprimentRDFTest/Parquet/SingleTable")
     RDFDFJournal.write.orc("file:///C:/ExprimentRDFTest/ORC/SingleTable")
 
-
+    */
 
 
   }

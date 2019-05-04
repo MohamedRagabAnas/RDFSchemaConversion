@@ -1,6 +1,7 @@
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.{SparkConf, SparkContext}
+import java.io.File
 
 object RDFBenchProertyTables {
 
@@ -23,6 +24,28 @@ object RDFBenchProertyTables {
       .getOrCreate()
 
 
+    val filePathCSV:String =args(0)
+    val filePathAVRO:String =args(1)
+    val filePathORC:String =args(2)
+    val filePathParquet:String =args(3)
+
+    val csvFiles = new File(filePathCSV).list()
+
+
+    csvFiles.foreach{
+      PropertyTableName=>
+        val PropertyTableName2=PropertyTableName.dropRight(4)
+        val RDFPropertyTableDF = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load(filePathCSV+"/"+PropertyTableName).toDF()
+
+        RDFPropertyTableDF.write.format("com.databricks.spark.avro").save(filePathAVRO +"/"+PropertyTableName2+".avro")
+        RDFPropertyTableDF.write.parquet(filePathParquet+"/"+PropertyTableName2+".parquet")
+        RDFPropertyTableDF.write.orc(filePathORC+"/"+PropertyTableName2+".orc")
+    }
+
+
+
+
+/*
     val RDFDFJournal = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load("file:///C:/ExprimentRDFTest/CSV/PropertyTables/Journal.csv").toDF()
 
     RDFDFJournal.write.format("com.databricks.spark.avro").save("file:///C:/ExprimentRDFTest/AVRO/PropertyTables/Journal")
@@ -56,7 +79,7 @@ object RDFBenchProertyTables {
     RDFDFDocument.write.parquet("file:///C:/ExprimentRDFTest/Parquet/Document")
     RDFDFDocument.write.orc("file:///C:/ExprimentRDFTest/ORC/Document")
 
-
+*/
 
 
   }

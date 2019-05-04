@@ -4,7 +4,7 @@
 		module="rdfschemaconversion$sources_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190502175925"
+		publication="20190504132523"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

@@ -1,1 +1,19 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\RDFSchemaConversion\target\scala-2.11\rdfschemaconversion_2.11-0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\RDFSchemaConversion\target\scala-2.11\rdfschemaconversion_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SingleStatementTable$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\SingleStatementTable$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RDFBenchProertyTables$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\RDFBenchProertyTables$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RDFBenchProertyTables$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\RDFBenchProertyTables$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SingleStatementTable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\SingleStatementTable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RDFBenchVerticalPartionedTables.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\RDFBenchVerticalPartionedTables.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RDFBenchProertyTables.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\RDFBenchProertyTables.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RDFBenchVerticalPartionedTables$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\RDFBenchVerticalPartionedTables$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RDFBenchVerticalPartionedTables$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\RDFSchemaConversion\target\scala-2.11\classes\RDFBenchVerticalPartionedTables$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

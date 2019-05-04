@@ -4,7 +4,7 @@
 		module="rdfschemaconversion$sbt_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190502175915"
+		publication="20190504132519"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
