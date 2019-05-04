@@ -40,6 +40,8 @@ object RDFBenchProertyTables {
         RDFPropertyTableDF.write.format("com.databricks.spark.avro").save(filePathAVRO +"/"+PropertyTableName2+".avro")
         RDFPropertyTableDF.write.parquet(filePathParquet+"/"+PropertyTableName2+".parquet")
         RDFPropertyTableDF.write.orc(filePathORC+"/"+PropertyTableName2+".orc")
+
+        println("Property Table: '" +PropertyTableName2+"' Has been Successfully Converted to AVRO, PARQUET and ORC !")
     }
 
 

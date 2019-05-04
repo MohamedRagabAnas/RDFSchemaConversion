@@ -39,7 +39,7 @@ object RDFBenchVerticalPartionedTables {
       RDFVerticalTableDF.write.parquet(filePathParquet+"/"+verticalTableName2+".parquet")
       RDFVerticalTableDF.write.orc(filePathORC+"/"+verticalTableName2+".orc")
 
-      println("Table: " +verticalTableName2+" Has been Successfully Converted to AVRO, PARQUET and ORC !")
+      println("Vertical Table: '" +verticalTableName2+"' Has been Successfully Converted to AVRO, PARQUET and ORC !")
     }
 
 
